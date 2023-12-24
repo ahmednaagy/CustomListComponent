@@ -28,19 +28,6 @@ struct CustomListView<Content: View>: View {
     }
 }
 
-struct CustomListView_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomListView(
-            items: ["Item 1", "Item 2", "Item 3"],
-            onItemClick: { selectedItem in
-                print("Selected item: \(selectedItem)")
-            }
-        ) { item in
-            Text(item)
-        }
-    }
-}
-
 
 #Preview {
     CustomListView(

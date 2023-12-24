@@ -57,7 +57,7 @@
 				D02A9AA62B38E07700576254 /* ContentView.swift */,
 				D02A9AA82B38E07800576254 /* Assets.xcassets */,
 				D02A9AAA2B38E07800576254 /* Preview Content */,
-				D02A9AB22B38E8DC00576254 /* CustomListView.swift */,
+				D02A9ACE2B38F52A00576254 /* Component */,
 			);
 			path = CustomListComponent;
 			sourceTree = "<group>";
@@ -68,6 +68,14 @@
 				D02A9AAB2B38E07800576254 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D02A9ACE2B38F52A00576254 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D02A9AB22B38E8DC00576254 /* CustomListView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
