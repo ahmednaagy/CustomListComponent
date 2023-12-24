@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let items = ["Item 1", "Item 2", "Item 3"]
+
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        CustomListView(items: items) { selectedItem in
+            print("Selected item: \(selectedItem)")
+        } content: { item in
+            Text(item)
         }
-        .padding()
+
     }
 }
 

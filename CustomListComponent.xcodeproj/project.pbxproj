@@ -11,6 +11,7 @@
 		D02A9AA72B38E07700576254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A9AA62B38E07700576254 /* ContentView.swift */; };
 		D02A9AA92B38E07800576254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02A9AA82B38E07800576254 /* Assets.xcassets */; };
 		D02A9AAC2B38E07800576254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02A9AAB2B38E07800576254 /* Preview Assets.xcassets */; };
+		D02A9AB32B38E8DC00576254 /* CustomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A9AB22B38E8DC00576254 /* CustomListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D02A9AA62B38E07700576254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D02A9AA82B38E07800576254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02A9AAB2B38E07800576254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D02A9AB22B38E8DC00576254 /* CustomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				D02A9AA62B38E07700576254 /* ContentView.swift */,
 				D02A9AA82B38E07800576254 /* Assets.xcassets */,
 				D02A9AAA2B38E07800576254 /* Preview Content */,
+				D02A9AB22B38E8DC00576254 /* CustomListView.swift */,
 			);
 			path = CustomListComponent;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02A9AA72B38E07700576254 /* ContentView.swift in Sources */,
+				D02A9AB32B38E8DC00576254 /* CustomListView.swift in Sources */,
 				D02A9AA52B38E07700576254 /* CustomListComponentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
